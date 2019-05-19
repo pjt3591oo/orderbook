@@ -1,0 +1,38 @@
+{
+  "sell": {
+      "set1": {
+        "coinTicker": "KRW-BTC",
+        "coinAmount": 1.1,
+        "orderType": "sell",
+        "price": 10.1
+      },
+
+      "set2": {
+        "coinTicker": "KRW-BTC",
+        "coinAmount": 1.1,
+        "orderType": "sell",
+        "price": 10
+      },
+
+      "set3": {
+        "coinTicker": "KRW-BTC",
+        "coinAmount": 1.1,
+        "orderType": "sell",
+        "price": 6
+      },
+
+      "set4": {
+        "coinTicker": "KRW-BTC",
+        "coinAmount": 1.1,
+        "orderType": "sell",
+        "price": 6.5
+      },
+
+      "set5": {
+        "coinTicker": "KRW-BTC",
+        "coinAmount": 1.1,
+        "orderType": "sell",
+        "price": 0.3
+      }
+  }
+}
