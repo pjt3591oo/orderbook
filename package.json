@@ -7,7 +7,8 @@
     "test": ""
   },
   "scripts": {
-    "test": "node ./test/test.js"
+    "test:orderbook": "node ./test/orderBook.test.js",
+    "test:match": "node ./test/orderBook.test.js"
   },
   "author": "",
   "license": "ISC"

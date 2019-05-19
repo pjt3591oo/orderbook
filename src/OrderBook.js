@@ -122,6 +122,10 @@ class OrderBook {
 
     this[orderType][index].coinAmount -= receive.coinAmount
   }
+
+  show () {
+    
+  }
 }
 
 module.exports = OrderBook

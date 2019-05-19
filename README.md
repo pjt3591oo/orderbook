@@ -3,5 +3,5 @@
 * run
 
 ```bash
-$ npm run test
+$ npm run test:orderbook
 ```
