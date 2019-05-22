@@ -73,7 +73,7 @@ class OrderBook {
     let orderIndex = this[mappingType][receive.price]
     let isSuccess = false
     
-    if ( orderIndex ) {
+    if ( orderIndex >= 0 ) {
       this[orderType][orderIndex].coinAmount += receive.coinAmount
       isSuccess = true
       return {isSuccess}

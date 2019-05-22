@@ -1,9 +1,7 @@
-const OrderBook = require('..')
-const {buy, sell} = require('../mock/firstOrderBook.json')
-const {set1, set2, set3, set4, set5} = require('../mock/order.json').sell
+const { OrderBook } = require('..')
+const { buy, sell } = require('../mock/firstOrderBook.json')
+const { set1, set2, set3, set4, set5 } = require('../mock/order.json').sell
 const matchData = require('../mock/match.json').sell
-
-
 
 const ob = new OrderBook({
   buy, sell
